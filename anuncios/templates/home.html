@@ -3,19 +3,56 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Anuncios com Django</title>
-	<style></style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.5/dist/semantic.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.5/dist/semantic.min.js"></script>
 </head>
 <body>
-	<h1>
-		<p>Olá Mundo !!</p>
-	</h1>
-			<div>
-			<ul>
-				<a href="anuncios">
-					Anuncios
-				</a>
-			</ul>
-		</div>
-
+	<div class="ui attached menu">
+		<a class="item"><strong>Anuncios com Django</strong></a>
+	  <div class="right menu">
+		<a class="item">Sign In</a>
+		<a class="item">Sign Up</a>
+	    <div class="item">
+		    <div class="ui right aligned category search">
+                <div class="ui transparent icon input">
+                    <input class="prompt" type="text" placeholder="Pesquisar">
+                    <i class="search icon"></i>
+                </div>
+                <div class="results"></div>
+			</div>
+	    </div>
+	  </div>
+	</div>
+<div class="ui vertical menu">
+  <div class="item">
+    <div class="header">Products</div>
+    <div class="menu">
+      <a class="item">Enterprise</a>
+      <a class="item">Consumer</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="header">CMS Solutions</div>
+    <div class="menu">
+      <a class="item">Rails</a>
+      <a class="item">Python</a>
+      <a class="item">PHP</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="header">Hosting</div>
+    <div class="menu">
+      <a class="item">Shared</a>
+      <a class="item">Dedicated</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="header">Support</div>
+    <div class="menu">
+      <a class="item">E-mail Support</a>
+      <a class="item">FAQs</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
